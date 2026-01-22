@@ -24,12 +24,12 @@ export default function TechStack() {
   ];
 
   return (
-    <div className="border-y border-white/10">
+    <div className="">
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
         {technologies.map((tech, index) => (
           <div 
             key={index}
-            className="group relative h-48 border-r border-b border-white/10 flex flex-col items-center justify-center p-8 transition-all duration-500 overflow-hidden hover:bg-zinc-900/30 lg:last:border-r-0 md:[&:nth-child(4n)]:border-r-0 [&:nth-child(2n)]:border-r-0 md:[&:nth-child(2n)]:border-r lg:[&:nth-child(2n)]:border-r"
+            className="group relative h-48  flex flex-col items-center justify-center p-8 transition-all duration-500 overflow-hidden hover:bg-zinc-900/30 lg:last:border-r-0 md:[&:nth-child(4n)]:border-r-0 [&:nth-child(2n)]:border-r-0 md:[&:nth-child(2n)]:border-r lg:[&:nth-child(2n)]:border-r"
           >
             {/* Icon */}
             <div className="w-20 h-20 relative transition-all duration-500 group-hover:scale-110">
@@ -46,8 +46,7 @@ export default function TechStack() {
               {tech.name}
             </div>
 
-            {/* Hover glow effect */}
-            <div className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500 pointer-events-none blur-xl bg-white" />
+         
           </div>
         ))}
       </div>
