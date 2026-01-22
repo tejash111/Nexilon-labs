@@ -49,7 +49,7 @@ export default function Navigation() {
               </div>
             ) : (
               <button 
-                className="px-3 w-50 h-13 md:px-6 lg:px-8 py-2 border !bg-[#fe4d01] border-white/20 !text-white text-[15px] md:text-[15px] font-mono uppercase tracking-[0.15em] hover:!bg-white hover:!text-black transition-colors whitespace-nowrap focus:!outline-none focus:!ring-0 focus:!bg-[#fe4d01] focus:!text-white active:!bg-[#fe4d01] active:!text-white"
+                className="hidden sm:block px-3 md:px-6 lg:px-8 py-2 border !bg-[#fe4d01] border-white/20 !text-white text-[11px] sm:text-[13px] md:text-[15px] font-mono uppercase tracking-[0.1em] md:tracking-[0.15em] hover:!bg-white hover:!text-black transition-colors whitespace-nowrap focus:!outline-none focus:!ring-0 focus:!bg-[#fe4d01] focus:!text-white active:!bg-[#fe4d01] active:!text-white"
                 style={{ WebkitTapHighlightColor: 'transparent', backgroundColor: '#fe4d01', color: 'white' }}
               >
                 START A PROJECT
